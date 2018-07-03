@@ -74,7 +74,7 @@
   --background-image: url('../images/grey-prism.svg');
 
   /* Typography */
-  --family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Helvetica Neue", sans-serif;
+  --family-sans-serif: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "YuGothic", "PingFang SC",  "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Helvetica Neue", sans-serif;
   --family-monospace: "SFMono-Regular", "Liberation Mono", "Roboto Mono", Menlo, Monaco, Consolas, "Courier New", Courier, monospace;
   --family-lobster: "Lobster", var(--family-sans-serif);
   --size-1: 3rem;

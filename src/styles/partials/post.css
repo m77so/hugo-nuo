@@ -23,24 +23,7 @@
     margin: 2rem 0;
     line-height: 1.8;
 
-    & .post-tags {
-      margin-top: 0;
-      margin-bottom: 1rem;
-      padding-left: 0;
 
-      & li {
-        display: inline-block;
-        margin-bottom: 0.5rem;
-        border-radius: var(--radius);
-        padding: 5px 10px;
-        background: var(--background);
-        font-size: var(--size-7);
-
-        & + li {
-          margin-left: 0.5rem;
-        }
-      }
-    }
 
     & .post-copyright {
       color: var(--text);

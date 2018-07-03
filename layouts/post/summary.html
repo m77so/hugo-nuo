@@ -9,5 +9,12 @@
   <p class="post-summary">{{ .Summary | plainify | htmlUnescape }}</p>
   <footer class="post-footer">
     <a class="read-more" href="{{ .Permalink }}">Read More →</a>
+    {{ if isset .Params "tags" }}
+    <ul class="post-tags">
+      {{ range $tag := .Params.tags }}
+        <li><a href="/tags/{{ $tag | urlize }}"><span class="tag">{{ $tag | title }}</span></a></li>
+      {{ end }}
+    </ul>
+    {{ end }}
   </footer>
 </article>
