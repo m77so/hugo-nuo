@@ -43,6 +43,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
   paginate = 10
 
+  DateFormat = "2006-01-02 15:04:05 -0700"
   # Choose your social networks
   email = "name@domain.com"
   github = "github_username"
