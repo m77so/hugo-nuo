@@ -7,8 +7,10 @@
   box-shadow: 0 1px 4px var(--box-shadow-darker);
   transition: all var(--easing) var(--speed);
 
+
   &:hover {
-    transform: rotate(180deg);
+    transition-duration: 30s;
+    transform: rotate(180000deg);
   }
 
   @media screen and (max-width: 800px) {
@@ -91,7 +93,7 @@
   position: absolute;
   left: 1rem;
   right: 1rem;
-  bottom: 1rem;
+  top: 1rem;
   font-size: 0;
 
   & .social-list {
@@ -127,7 +129,7 @@
     transition: all var(--easing) var(--speed);
   }
 
-  @media screen and (min-width: 800px) and (max-height: 768px) {
+  @media screen and (min-width: 800px) and (max-height: 10px) {
     display: none;
   }
 }
