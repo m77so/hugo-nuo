@@ -12,7 +12,14 @@
       </ul>
       {{ end }}
     </header>
-    <article class="post-content">{{ .Content }}</article>
+    
+
+    
+    <article class="post-content">
+      {{ if eq .Params.usetoc true }}
+        {{ partial "toc.html" . }}
+      {{ end }}
+      {{ .Content }}</article>
     <footer class="post-footer">
       {{ if isset .Params "tags" }}
       <ul class="post-tags">

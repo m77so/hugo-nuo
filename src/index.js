@@ -64,3 +64,9 @@ toTopBtn.addEventListener('click', () => {
 
 // HMR interface
 if (module.hot) module.hot.accept();
+
+var $tocPlace = document.getElementById('js-toc-place');
+var $toc = document.getElementsByClassName('js-toc')[0]
+if ($tocPlace !== void 0 && $toc !== void 0) {
+  $tocPlace.appendChild($toc)
+}
